@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color:black;
+}
+a:hover{
+    color:#583D72;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #EEEEEE;
+}
+.navbar{
+    margin-top:15px;
+    text-align: center;
+
+}
+.navbar ul{
+    border-radius: 15px;
+    background-color: #583D72;
+
+
+
+}
+.nav-item{
+    margin:10px;
+    transition:all 0.5s;
+
+}
+.navbar .active{
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.navbar ion-icon {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    --ionicon-stroke-width: 40px;
+    color:#EEEEEE;
+
+  }
+
+
+.navbar a{
+    color:#EEEEEE;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:#583D72;
+
+}
+.active a{
+    color:#583D72;
+}
+.active a ion-icon{
+    color:#583D72;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero ion-icon.code{
+    font-size: 64px;
+    display: inline;
+
+}
+
+.panel{
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+
+}
+.panel *{
+    margin-left:5px;
+    margin-top:5px;
+
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+img:hover{
+    opacity: 0.7;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);
+
+}
+.year{
+    color:#bfbfbf;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.line{
+    height: 3px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #EEEEEE;
+    margin-left:10px;
+
+}
+.panel p{
+    margin-left:10px;
+}
+
+.skills {
+    text-align: right;
+    padding: 2px;
+    padding-right: 7px;
+    color: white;
+    font-size: 11px;
+    border-radius: 7px;
+  }
+  
+  .html {width: 85%; background-color: #B5EAEA;}
+  .js {width: 80%; background-color: #F6C6EA;}
+  .c {width: 60%; background-color: #F38BA0;}
+  .php {width: 65%; background-color: #FFBCBC;}
+  .lua {width: 80%; background-color: #C490E4;}
+  
+  .adobe {width: 80%; background-color: #4C4C6D;}
+
+
+.project{
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.2);
+
+}
+.project p{
+    margin:5px;
+}
+.project img{
+    float: left;
+    margin-right: 10px;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+  .modal-content:hover{
+    opacity: 1;
+  }
+
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
