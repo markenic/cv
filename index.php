@@ -77,7 +77,7 @@
                 <h5>Projectjeim</h5>
                   <div class="project">
                     <div class="col-md-2">
-                      <img src="assets/koz.png" alt="közössegi szolgálat" style="width: 100%">
+                      <img src="assets/koz.PNG" alt="közössegi szolgálat" style="width: 100%">
                     </div>
                     <div class="col-md-10">
                       <h5>Iskolai Közösségi szolgálat</h5>
@@ -88,7 +88,7 @@
                   </div>
                   <div class="project">
                     <div class="col-md-2">
-                      <img src="assets/shop.png" alt="közössegi szolgálat" style="width: 80%">
+                      <img src="assets/shop.PNG" alt="közössegi szolgálat" style="width: 80%">
                     </div>
                     <div class="col-md-10">
                       <h5>NodeJS + ReactJS Webshop</h5>
@@ -125,7 +125,6 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="js/wow.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
